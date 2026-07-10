@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  /* Overriding Tailwind blue colors with the official HUAN deep corporate navy theme color palette */
+  --color-blue-100: #e0f2fe;
+  --color-blue-200: #bae6fd;
+  --color-blue-300: #7dd3fc;
+  --color-blue-400: #38bdf8; /* Accent light blue */
+  --color-blue-500: #00508f; /* Accent rich blue */
+  --color-blue-600: #002d54; /* EXACT HUAN Logo deep navy color */
+  --color-blue-700: #00203d; /* Dark corporate navy */
+  --color-blue-800: #00162b; /* Deep border slate/navy */
+  --color-blue-900: #000c17; /* Slate dark/black component card background */
+  --color-blue-950: #00060d; /* Slate dark/black background of the app */
+}
+
+/* Custom global scrollbars and styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617; /* Slate 950 */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b; /* Slate 800 */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155; /* Slate 700 */
+}

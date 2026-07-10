@@ -1,0 +1,6 @@
+{
+  "name": "HUAN Surveillance",
+  "description": "Premium Security & Surveillance Solutions Provider in Pakistan with AI-powered Surveillance Storyboard Planning",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
